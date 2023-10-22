@@ -9,7 +9,7 @@ public class Aluno extends Pessoa {
     public void pagarMensalidade() {
         System.out.println("Pagando mensalidade de aluno " +  this.getNome());
     }
-    public void canceçarMatricula(){
+    public void cancelarMatricula(){
         System.out.println("Matricula cancelada!");
     }
 

@@ -1,6 +1,6 @@
 package video.curso.herança;
 
-public class Bolsista extends Aluno {
+public final class Bolsista extends Aluno {
     private float bolsa;
 
 
@@ -10,6 +10,7 @@ public class Bolsista extends Aluno {
     }
 
 
+    @Override
     public void pagarMensalidade() {
         System.out.println(this.getNome() + " é bolsista! Pagamento facilitado.");
     }

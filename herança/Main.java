@@ -25,6 +25,9 @@ public class Main {
         b1.setMatricula(1112);
         b1.setNome("Jubileu");
         b1.setBolsa(12.5f);
+        b1.setCurso("Informática");
+        b1.setSexo("M");
+        b1.pagarMensalidade();
 
         p3.setNome("Alexis");
         p4.setNome("Barcelos");
