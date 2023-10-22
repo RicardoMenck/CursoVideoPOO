@@ -3,7 +3,7 @@ package video.curso.herança;
 public final class Bolsista extends Aluno {
     private float bolsa;
 
-    
+
 
     //métodos da classe
     public void renovarBolsa() {
